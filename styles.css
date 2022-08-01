@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body { background-color: rgb(226, 196, 255);
+color: #0f141e;
+font-size: 16px;
+font-weight: normal;
+font-family:'Roboto', sans-serif;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+
+a:visited{
+    color: gray;
+}
+.picture{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0);
+ }
+ 
+ .info p{
+    color: #051636;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize ;*/
+    letter-spacing: 2px; 
+ } 
+ .info{
+
+    margin-bottom: 15px;
+   
+ }
+
+ @media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+ }
+ .info-text {
+    margin-left: 40px;
+ }
+
+ .container{
+    max-width: 700px;
+    margin: auto;
+
+ }
+ /*.video {
+    background: pink;
+    padding: 10px;
+   padding: 10px 20px;
+    margin: 10px;
+    border: 3px solid rgb(129, 27, 129);
+    border-style: dotted;
+ } */
+
+ .bg-yellow{
+    background: #b8dadb;
+ }
+
+ .bg-green{
+    background: #d8baba;
+ }
+
+ 
+  .card{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+  }
+  .link-list{
+    list-style: none;
+  }
+  .link-list{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #f3f2f2;
+  }
+ .contact h4{
+    text-align: center;
+
+ }
+ .form-group label{
+    display: block;
+    font-size: 14px;
+
+ }
+ .form-group input, 
+ .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #0f141e;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+ }
+ .row{
+    display: flex;
+    margin-bottom: 20px;
+ }
+ .row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+ }
+ .btn {
+    padding: 10px 15px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+ }
+ .btn:hover{
+    opacity: 0.9;
+ }
+ /*Position*/
+ /*
+ .position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+
+ }
+
+ .box{
+    position: fixed;
+    top: 100px; 
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: crimson;
+ } */
